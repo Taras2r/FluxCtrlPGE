@@ -8,7 +8,7 @@ static void sinSig( void )
 {
    //use V_AdvPowerSP instead of V_MTC_ActivePowerRef
    //todo simulate V_MTC_ActivePowerRef so it is changed every 20ms by
-   //sin function;
+   //sin function; Test
 
    float powerRef;
    static float time;
