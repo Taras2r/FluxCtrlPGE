@@ -26,10 +26,9 @@ static void sinSig( void )
    fileDesc = fopen("sinSig.csv", "w");
 
    // Write some text to the file
-
-
-   // Close the file
    fprintf(fileDesc, "power,time,powerInt,powerPercentage\n");
+
+
 
    while(4.0 > time )
    {
@@ -55,6 +54,7 @@ static void sinSig( void )
 //      fprintf(fileDesc, "%f,%f\n", powerRef, time);
 //   }
 
+   // Close the file
    fclose(fileDesc);
 
 }
